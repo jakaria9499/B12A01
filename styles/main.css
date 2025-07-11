@@ -58,6 +58,10 @@ nav ul li a {
     color: white;
     height: 48px;
     
+    
+}
+.btn:hover {
+    box-shadow: 0 2px 6px 0 rgba(78, 64, 208, 0.2), 0 8px 10px 0 rgba(107, 39, 136, 0.19);
 }
 header .bottom {
     width: 905px;
@@ -289,9 +293,52 @@ section 5 */
     margin-top: 10px;
     font-size: 16px;
 }
+.sec5 form input:focus {
+    outline: none;
+}
 .sec5 form .message {
     height: 120px;
 }
 .sec5 form .s{
     width: 492px;;
+}
+/* 
+footer section */
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "inter", sans-serif;
+}
+footer .footer-logo h1{
+    font-weight: 800;
+    color: #4e47ff;
+    font-size: 100px;
+    text-align: center;
+    
+}
+footer .footer-text{
+    margin-top: 20px;
+}
+footer .footer-text p{
+    text-align: center;
+}
+footer .footer-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+footer .footer-links ul li{
+    list-style: none;
+}
+footer .footer-links ul li a {
+    text-decoration: none;
+    color: #252432;
+}
+footer .footer-links ul li a:hover {
+    color: #4e47ff;
 }

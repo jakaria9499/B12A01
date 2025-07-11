@@ -186,6 +186,9 @@ section 3 */
     justify-content: space-between;
     margin-top: 30px;
 }
+.sec3 .cards .o:hover {
+    box-shadow: 0 2px 6px 0 rgba(78, 64, 208, 0.2), 0 8px 10px 0 rgba(107, 39, 136, 0.19);
+}
 .sec3 .cards .o{
     font-family: "Raleway", sans-serif;
     width: 366px;
@@ -203,6 +206,7 @@ section 3 */
     font-weight: bold;
     color: #252432;
     margin-top: 20px;
+    cursor: pointer;
 }
 .sec3 .cards .o p {
     font-size: 16px;
@@ -214,10 +218,14 @@ section 3 */
     display: flex;
     gap: 15px;
 }
+.sec3 .cards .o .auther h3 {
+    cursor: pointer;
+}
 .sec3 .cards .o .auther img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    cursor: pointer;
 }   
 /* 
 section 4 */
@@ -293,7 +301,18 @@ section 5 */
     margin-top: 10px;
     font-size: 16px;
 }
-.sec5 form input:focus {
+.sec5 form textarea {
+    font-family: "Raleway", sans-serif;
+    width: 450px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    resize: none;
+}
+.sec5 form input:focus , .sec5 form textarea:focus {
     outline: none;
 }
 .sec5 form .message {
